@@ -46,8 +46,8 @@ button {
   outline: none;
   border-radius: 8px;
   cursor: pointer;
-  
-}     
+
+}
 button:hover,
 .button:focus {
   color: #212121;
@@ -322,6 +322,16 @@ button:hover,
 }
 .button.button-messenger:hover,
 .button.button-messenger:focus {
+  filter: brightness(90%);
+}
+
+/* Farcaster */
+.button.button-farcaster {
+  color: #ffffff;
+  background-color: #8a63d2;
+}
+.button.button-farcaster:hover,
+.button.button-farcaster:focus {
   filter: brightness(90%);
 }
 
