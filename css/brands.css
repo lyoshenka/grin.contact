@@ -474,6 +474,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Icebreaker */
+.button.button-icebreaker {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-icebreaker:hover,
+.button.button-icebreaker:focus {
+  filter: brightness(90%);
+}
+
 /* Instagram */
 .button.button-instagram {
   color: #ffffff;
