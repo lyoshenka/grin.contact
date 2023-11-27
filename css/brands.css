@@ -1088,6 +1088,18 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* XMTP */
+.button.button-xmtp {
+  color: #FFFFFF;
+  background-color: #31006E;
+  border: 1px solid #FFFFFF;
+}
+.button.button-xmtp:hover,
+.button.button-xmtp:focus {
+  filter: brightness(90%);
+}
+
+
 /* YouTube */
 .button.button-yt {
   color: #ffffff;
