@@ -73,6 +73,11 @@ button:hover,
   width: 20px;
   height: 20px;
 }
+.airchaticon {
+  width: 26px;
+  height: 26px;
+}
+
 
 /* Brand Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -84,6 +89,17 @@ button:hover,
 }
 .button.button-default:hover,
 .button.button-default:focus {
+  filter: brightness(90%);
+}
+
+/* AirChat */
+.button.button-airchat {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-airchat:hover,
+.button.button-airchat:focus {
   filter: brightness(90%);
 }
 
