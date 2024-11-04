@@ -1130,7 +1130,6 @@ button:hover,
 .button.button-xmtp {
   color: #FFFFFF;
   background-color: #31006E;
-  border: 1px solid #FFFFFF;
 }
 .button.button-xmtp:hover,
 .button.button-xmtp:focus {
