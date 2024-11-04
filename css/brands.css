@@ -210,12 +210,23 @@ button:hover,
 
 /* Bluesky */
 .button.button-bluesky {
-  color: #000000;
-  background-color: #F3F9FF;
-  border: 1px solid #212121;
+  color: #FFFFFF;
+  background-color: #1185FE;
 }
+
 .button.button-bluesky:hover,
 .button.button-bluesky:focus {
+  filter: brightness(90%);
+}
+
+/* Bluesky Alt */
+.button.button-bluesky-alt {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+}
+.button.button-bluesky-alt:hover,
+.button.button-bluesky-alt:focus {
   filter: brightness(90%);
 }
 
@@ -656,6 +667,17 @@ button:hover,
 .button.button-ngl:focus {
   filter: brightness(90%);
 }
+
+/* Nostr */
+.button.button-nostr {
+  color: #ffffff;
+  background-color: #662482;
+}
+.button.button-nostr:hover,
+.button.button-nostr:focus {
+  filter: brightness(90%);
+}
+
 
 /* Notion */
 .button.button-notion {
